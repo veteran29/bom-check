@@ -1,4 +1,4 @@
-FROM debian:10-slim as bom-check
+FROM debian:12-slim as bom-check
 
 COPY entrypoint.sh /entrypoint.sh
 
